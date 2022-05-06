@@ -10,7 +10,7 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 import os
 
-bot = telebot.TeleBot('5344203594:AAFqmiyTJW1gpcVc6jXOpkRc5JZ-FvzPIpc')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
